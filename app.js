@@ -2,7 +2,7 @@
 (function () {
   "use strict";
 
-  const PIN = ["7", "3", "9", "1", "8", "4"].join("");
+  const PIN = ["4", "4", "2", "3", "3", "5", "5", "7"].join("");
   const SESSION_KEY = "stahl-school-ok";
   const TZ = "America/New_York";
 
@@ -710,11 +710,11 @@
     }
 
     function push(ch) {
-      if (value.length >= 6) return;
+      if (value.length >= PIN.length) return;
       err.textContent = "";
       value += ch;
       paint();
-      if (value.length === 6) commit();
+      if (value.length === PIN.length) commit();
     }
 
     function back() {
