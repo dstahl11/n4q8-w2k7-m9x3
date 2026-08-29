@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="robots" content="noindex,nofollow">
+  <meta name="googlebot" content="noindex,nofollow">
+  <meta name="color-scheme" content="light">
+  <meta name="theme-color" content="#efe7da">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="default">
+  <meta name="apple-mobile-web-app-title" content="Stahl school">
+  <meta name="description" content="Private family school dashboard">
+  <title>Stahl · School</title>
+  <link rel="icon" href="./favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600&amp;family=Source+Sans+3:ital,wght@0,400;0,600;0,700;1,400&amp;display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./styles.css">
+  <script>
+    try {
+      if (sessionStorage.getItem("stahl-school-ok") === "1") {
+        document.documentElement.classList.add("unlocked");
+      }
+    } catch (e) {}
+  </script>
+</head>
+<body>
+  <div id="gate" class="gate" role="dialog" aria-labelledby="gate-title" aria-modal="true">
+    <div class="gate-mark">family</div>
+    <h1 id="gate-title">Stahl</h1>
+    <p class="lede">School dashboard</p>
+    <div id="pin-dots" class="pin-dots" aria-hidden="true">
+      <span></span><span></span><span></span><span></span><span></span><span></span>
+    </div>
+    <div id="pin-pad" class="pin-pad" role="group" aria-label="PIN keypad">
+      <button type="button" data-k="1">1</button>
+      <button type="button" data-k="2">2</button>
+      <button type="button" data-k="3">3</button>
+      <button type="button" data-k="4">4</button>
+      <button type="button" data-k="5">5</button>
+      <button type="button" data-k="6">6</button>
+      <button type="button" data-k="7">7</button>
+      <button type="button" data-k="8">8</button>
+      <button type="button" data-k="9">9</button>
+      <button type="button" class="ghost" tabindex="-1" aria-hidden="true"></button>
+      <button type="button" data-k="0">0</button>
+      <button type="button" class="ghost" data-k="del" aria-label="Delete">⌫</button>
+    </div>
+    <p id="pin-err" class="err" role="status" aria-live="polite"></p>
+  </div>
+
+  <main id="app" class="app" hidden></main>
+
+  <noscript>
+    <p class="noscript">This dashboard needs JavaScript turned on.</p>
+  </noscript>
+  <script src="./app.js" defer></script>
+</body>
+</html>

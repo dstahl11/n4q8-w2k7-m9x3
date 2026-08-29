@@ -1,0 +1,189 @@
+{
+  "lastUpdated": "2026-08-29T19:40:00-04:00",
+  "timezone": "America/New_York",
+  "familyName": "Stahl",
+  "kids": [
+    {
+      "id": "hugo",
+      "name": "Hugo Stahl",
+      "shortName": "Hugo",
+      "gradeLabel": "rising 7th grade",
+      "school": {
+        "name": "The Red Oaks School",
+        "level": "Middle School",
+        "address": "238 Speedwell Ave, Morris Plains, NJ 07950",
+        "portal": {
+          "name": "Blackbaud",
+          "url": "https://redoaksschool.myschoolapp.com/app"
+        },
+        "staff": [
+          {
+            "role": "Nurse",
+            "name": "Gayle Gerardo",
+            "email": "nurse@redoaksschool.org"
+          },
+          {
+            "role": "Advisor 2025–26",
+            "name": "Claudia Perez Lopez",
+            "email": "cperez@redoaksschool.org"
+          },
+          {
+            "role": "Login help",
+            "name": "Jenna Buesser",
+            "email": "jbuesser@redoaksschool.org"
+          }
+        ]
+      },
+      "transport": {
+        "name": "Maplewood bus",
+        "status": "committed",
+        "pickup": "Pierson Road between Burnet and Valley",
+        "starts": "2026-09-08T07:20:00-04:00",
+        "startsNote": "Bus does not run the first week. Drive if Red Oaks is in session before Tue Sep 8.",
+        "delayPickup": "9:20am ET",
+        "delayRule": "2-hour delay → 9:20am pickup",
+        "cost": "$2500/student",
+        "closedIf": "If SOMSD or Morris SD is closed, no Maplewood bus even if Red Oaks is open."
+      },
+      "needsResponse": [
+        {
+          "id": "hugo-bts-medical",
+          "title": "Back-to-school checklist + medical forms",
+          "body": "Complete the Back-to-School Checklist and medical forms in Blackbaud. Medical forms were originally due Aug 15; the deadline was extended to Friday Sep 4.",
+          "due": "2026-09-04",
+          "path": "Blackbaud → Resources → Back-to-School Checklist",
+          "href": "https://redoaksschool.myschoolapp.com/app",
+          "hrefLabel": "Open Blackbaud",
+          "contact": {
+            "role": "Login help",
+            "name": "Jenna Buesser",
+            "email": "jbuesser@redoaksschool.org"
+          }
+        }
+      ],
+      "upcoming": [
+        {
+          "id": "hugo-bus-start",
+          "title": "Maplewood bus starts",
+          "body": "Pickup on Pierson Road between Burnet and Valley. Not the first week of school — drive until then if Red Oaks is in session.",
+          "start": "2026-09-08T07:20:00-04:00",
+          "location": "Pierson Road between Burnet and Valley"
+        },
+        {
+          "id": "hugo-welcome-breakfast",
+          "title": "Parent Welcome Back Breakfast",
+          "body": "Middle School dining hall.",
+          "start": "2026-09-10T08:30:00-04:00",
+          "location": "Middle School dining hall",
+          "uncertain": true,
+          "uncertainNote": "Treating Thu Sep 10 as canonical (email subject said 9/10). An image alt text incorrectly said Fri Sep 5."
+        }
+      ],
+      "scheduleNotes": [
+        {
+          "title": "First instructional day",
+          "body": "Not listed in the mail — unknown. Drive Hugo if school is in session before the bus starts Tue Sep 8."
+        },
+        {
+          "title": "Bus on delays and closures",
+          "body": "2-hour delay → 9:20am pickup. If SOMSD or Morris SD is closed, the Maplewood bus does not run even if Red Oaks is open."
+        }
+      ]
+    },
+    {
+      "id": "theo",
+      "name": "Theodore Stahl",
+      "shortName": "Theo",
+      "gradeLabel": "3rd grade · 2026–27",
+      "school": {
+        "name": "Delia Bolden Elementary",
+        "level": "SOMSD",
+        "address": "518 Ridgewood Road, Maplewood, NJ 07040",
+        "portal": {
+          "name": "PowerSchool",
+          "url": "https://www.somsdk12.org/powerschool"
+        },
+        "mailFrom": "somsd.k12.nj.us",
+        "staff": [
+          {
+            "role": "Principal",
+            "name": "Kimberly Hutchinson"
+          },
+          {
+            "role": "Assistant Principal",
+            "name": "Mr. Calissi"
+          }
+        ]
+      },
+      "transport": null,
+      "needsResponse": [
+        {
+          "id": "theo-teacher",
+          "title": "Get teacher assignment in PowerSchool",
+          "body": "Posted Friday Aug 28. The school will not give teacher names by phone or email — check PowerSchool.",
+          "posted": "2026-08-28",
+          "href": "https://www.somsdk12.org/powerschool",
+          "hrefLabel": "Open PowerSchool"
+        },
+        {
+          "id": "theo-welcome-letter",
+          "title": "Pick up one teacher welcome letter",
+          "body": "File box outside the front door on Virginia Road. One letter per family.",
+          "windowStart": "2026-08-31T10:00:00-04:00",
+          "windowEnd": "2026-09-01",
+          "location": "File box outside the front door, Virginia Road"
+        },
+        {
+          "id": "theo-pta-captain",
+          "title": "Bolden PTA class captain form",
+          "body": "Optional. Sign up if you want to be a class captain.",
+          "due": "2026-08-31T18:00:00-04:00",
+          "optional": true,
+          "href": "https://forms.gle/Fm9V2CB3DiYsGWRP6",
+          "hrefLabel": "Open PTA form"
+        },
+        {
+          "id": "theo-principal-email",
+          "title": "Watch for first-day email from the principal",
+          "body": "Principal said a Monday Aug 31 email is coming with first-day arrival, dismissal, and breakfast. Not in the inbox as of Saturday Aug 29. District mail comes from somsd.k12.nj.us.",
+          "expected": "2026-08-31"
+        }
+      ],
+      "upcoming": [
+        {
+          "id": "theo-first-day",
+          "title": "SOMSD first day of school",
+          "body": "Universal breakfast starts. Bell-to-bell smartphone, smartwatch, and earbud ban. Elementary Chromebooks stay at school.",
+          "start": "2026-09-01",
+          "location": "Delia Bolden Elementary"
+        }
+      ],
+      "scheduleNotes": [
+        {
+          "title": "First day · Tue Sep 1",
+          "body": "Universal breakfast starts this day. Bell-to-bell ban on smartphones, smartwatches, and earbuds. Elementary Chromebooks stay at school."
+        },
+        {
+          "title": "District mail",
+          "body": "Expect school mail from somsd.k12.nj.us."
+        }
+      ]
+    }
+  ],
+  "daysOff": [
+    {
+      "id": "labor-day",
+      "title": "Labor Day",
+      "date": "2026-09-07",
+      "confirmed": false,
+      "note": "Public holiday — unconfirmed school closure"
+    },
+    {
+      "id": "columbus-day",
+      "title": "Columbus Day",
+      "date": "2026-10-12",
+      "confirmed": false,
+      "note": "Public holiday — unconfirmed school closure"
+    }
+  ]
+}
