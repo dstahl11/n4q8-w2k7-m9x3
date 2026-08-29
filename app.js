@@ -1,4 +1,4 @@
-/* Stahl school dashboard */
+/* Hugo and Theo School Stuff */
 (function () {
   "use strict";
 
@@ -9,7 +9,7 @@
   const FALLBACK_DATA = {
   "lastUpdated": "2026-08-29T19:40:00-04:00",
   "timezone": "America/New_York",
-  "familyName": "Stahl",
+  "familyName": "Hugo and Theo School Stuff",
   "kids": [
     {
       "id": "hugo",
@@ -566,19 +566,19 @@
           "</div>" +
         "</header>" +
         '<div class="kid-body">' +
-          '<div class="block"><div class="section-label">Needs a response</div>' +
+          '<div class="block"><div class="section-label">To do</div>' +
             list(needs, "Nothing waiting.") +
           "</div>" +
           '<div class="block"><div class="section-label">This week</div>' +
             list(thisWeek, "Nothing on the calendar this week.") +
           "</div>" +
-          '<div class="block"><div class="section-label">Coming up</div>' +
+          '<div class="block"><div class="section-label">Later</div>' +
             list(later, "Nothing further out yet.") +
           "</div>" +
-          '<div class="block"><div class="section-label">Days off / schedule</div>' +
+          '<div class="block"><div class="section-label">Days off</div>' +
             (scheduleHtml || empty("No schedule notes.")) +
           "</div>" +
-          '<div class="block"><div class="section-label">Handy bits</div>' +
+          '<div class="block"><div class="section-label">Contacts</div>' +
             renderBits(kid) +
           "</div>" +
         "</div>" +
@@ -609,8 +609,8 @@
     if (!rows.length) {
       return (
         '<section class="needs-you">' +
-          '<div class="section-label">Needs you</div>' +
-          empty("Caught up — nothing needs a reply.") +
+          '<div class="section-label">Do this</div>' +
+          empty("Nothing right now.") +
         "</section>"
       );
     }
@@ -635,8 +635,8 @@
       })
       .join("");
     return (
-      '<section class="needs-you" aria-label="Needs you">' +
-        '<div class="section-label">Needs you <span class="count">' +
+      '<section class="needs-you" aria-label="Do this">' +
+        '<div class="section-label">Do this <span class="count">' +
         rows.length +
         "</span></div>" +
         '<div class="strip">' +
@@ -654,7 +654,6 @@
       .join("");
     return (
       '<header class="letterhead">' +
-        '<div class="kicker">family school</div>' +
         "<h1>" + esc(family) + "</h1>" +
         '<p class="updated">Updated <time datetime="' + esc(data.lastUpdated) + '">' +
           esc(fmtUpdated(data.lastUpdated)) +
@@ -662,7 +661,7 @@
       "</header>" +
       renderStrip(data, now) +
       kids +
-      '<p class="footnote">Private family page · not for sharing</p>'
+      ''
     );
   }
 
