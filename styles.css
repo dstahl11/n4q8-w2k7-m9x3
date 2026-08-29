@@ -191,15 +191,10 @@ html:not(.unlocked) .app { display: none; }
 }
 
 .strip-item {
-  display: grid;
-  grid-template-columns: auto 1fr auto;
-  grid-template-areas: "pip body chip";
-  gap: 0.55rem 0.7rem;
-  align-items: start;
   background: var(--card);
   border: 1px solid var(--line);
   border-radius: 3px;
-  padding: 0.7rem 0.8rem;
+  padding: 0;
 }
 
 .strip-item .pip {
@@ -432,3 +427,57 @@ html:not(.unlocked) .app { display: none; }
 @media (prefers-reduced-motion: reduce) {
   .gate.shake .pin-dots { animation: none; }
 }
+
+.strip-item {
+  display: block;
+  padding: 0;
+}
+
+.strip-head {
+  display: grid;
+  grid-template-columns: auto 1fr auto auto;
+  grid-template-areas: "pip body chip caret";
+  gap: 0.55rem 0.7rem;
+  align-items: start;
+  width: 100%;
+  margin: 0;
+  padding: 0.7rem 0.8rem;
+  border: 0;
+  background: transparent;
+  text-align: left;
+  cursor: pointer;
+  border-radius: 3px;
+}
+
+.strip-head:active { background: #f7f7f7; }
+
+.strip-item .pip { grid-area: pip; }
+.strip-head .chip { grid-area: chip; margin-top: 0.15rem; }
+
+.caret {
+  grid-area: caret;
+  width: 0.45rem;
+  height: 0.45rem;
+  margin-top: 0.45rem;
+  border-right: 2px solid #888;
+  border-bottom: 2px solid #888;
+  transform: rotate(45deg);
+}
+
+.strip-item.open .caret {
+  transform: rotate(225deg);
+  margin-top: 0.6rem;
+}
+
+.strip-detail {
+  display: none;
+  padding: 0 0.8rem 0.8rem 1.85rem;
+  color: var(--muted);
+  font-size: 0.94rem;
+}
+
+.strip-item.open .strip-detail { display: block; }
+
+.strip-detail p { margin: 0 0 0.4rem; }
+.strip-detail .path { margin: 0.2rem 0; font-size: 0.88rem; }
+.strip-detail .item-links { margin-top: 0.45rem; }

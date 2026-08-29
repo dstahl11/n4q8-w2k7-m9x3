@@ -621,15 +621,31 @@
         const chip = chipFor(item, now);
         const when = whenLine(item);
         const opt = item.optional ? " · optional" : "";
+        const detailBits = [];
+        if (item.body) detailBits.push("<p>" + esc(item.body) + "</p>");
+        if (item.path) detailBits.push('<div class="path">' + esc(item.path) + "</div>");
+        if (item.location) detailBits.push('<div class="path">' + esc(item.location) + "</div>");
+        if (item.uncertain) {
+          detailBits.push('<div class="flag">' + esc(item.uncertainNote || "Date slightly uncertain") + "</div>");
+        }
+        const links = itemLinks(item);
+        if (links) detailBits.push(links);
+        const detail = detailBits.length
+          ? '<div class="strip-detail">' + detailBits.join("") + "</div>"
+          : '<div class="strip-detail"><p>No extra detail.</p></div>';
         return (
           '<article class="strip-item" data-kid="' + esc(kid.id) + '">' +
-            '<span class="pip" aria-hidden="true"></span>' +
-            '<div class="strip-body">' +
-              '<p class="strip-kid">' + esc(kid.shortName) + "</p>" +
-              '<p class="strip-title">' + esc(item.title) + "</p>" +
-              (when ? '<p class="strip-meta">' + esc(when + opt) + "</p>" : "") +
-            "</div>" +
-            chipHtml(chip) +
+            '<button type="button" class="strip-head" aria-expanded="false">' +
+              '<span class="pip" aria-hidden="true"></span>' +
+              '<div class="strip-body">' +
+                '<p class="strip-kid">' + esc(kid.shortName) + "</p>" +
+                '<p class="strip-title">' + esc(item.title) + "</p>" +
+                (when ? '<p class="strip-meta">' + esc(when + opt) + "</p>" : "") +
+              "</div>" +
+              chipHtml(chip) +
+              '<span class="caret" aria-hidden="true"></span>' +
+            "</button>" +
+            detail +
           "</article>"
         );
       })
@@ -752,6 +768,14 @@
     try {
       const data = await loadData();
       root.innerHTML = renderApp(data);
+      root.addEventListener("click", function (e) {
+        const head = e.target.closest(".strip-head");
+        if (!head || !root.contains(head)) return;
+        const item = head.closest(".strip-item");
+        if (!item) return;
+        const open = item.classList.toggle("open");
+        head.setAttribute("aria-expanded", open ? "true" : "false");
+      });
     } catch (err) {
       root.innerHTML =
         '<p class="empty">Could not load the dashboard. Check data.json.</p>';
