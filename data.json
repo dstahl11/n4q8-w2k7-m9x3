@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-29T19:40:00-04:00",
+  "lastUpdated": "2026-08-31T07:40:00-04:00",
   "timezone": "America/New_York",
   "familyName": "Hugo and Theo School Stuff",
   "kids": [
@@ -23,7 +23,7 @@
             "email": "nurse@redoaksschool.org"
           },
           {
-            "role": "Advisor 2025–26",
+            "role": "Advisor 2025\u201326",
             "name": "Claudia Perez Lopez",
             "email": "cperez@redoaksschool.org"
           },
@@ -41,7 +41,7 @@
         "starts": "2026-09-08T07:20:00-04:00",
         "startsNote": "Bus does not run the first week. Drive if Red Oaks is in session before Tue Sep 8.",
         "delayPickup": "9:20am ET",
-        "delayRule": "2-hour delay → 9:20am pickup",
+        "delayRule": "2-hour delay \u2192 9:20am pickup",
         "cost": "$2500/student",
         "closedIf": "If SOMSD or Morris SD is closed, no Maplewood bus even if Red Oaks is open."
       },
@@ -51,7 +51,7 @@
           "title": "Back-to-school checklist + medical forms",
           "body": "Complete the Back-to-School Checklist and medical forms in Blackbaud. Medical forms were originally due Aug 15; the deadline was extended to Friday Sep 4.",
           "due": "2026-09-04",
-          "path": "Blackbaud → Resources → Back-to-School Checklist",
+          "path": "Blackbaud \u2192 Resources \u2192 Back-to-School Checklist",
           "href": "https://redoaksschool.myschoolapp.com/app",
           "hrefLabel": "Open Blackbaud",
           "contact": {
@@ -65,7 +65,7 @@
         {
           "id": "hugo-bus-start",
           "title": "Maplewood bus starts",
-          "body": "Pickup on Pierson Road between Burnet and Valley. Not the first week of school — drive until then if Red Oaks is in session.",
+          "body": "Pickup on Pierson Road between Burnet and Valley. Not the first week of school \u2014 drive until then if Red Oaks is in session.",
           "start": "2026-09-08T07:20:00-04:00",
           "location": "Pierson Road between Burnet and Valley"
         },
@@ -82,11 +82,11 @@
       "scheduleNotes": [
         {
           "title": "First instructional day",
-          "body": "Not listed in the mail — unknown. Drive Hugo if school is in session before the bus starts Tue Sep 8."
+          "body": "Not listed in the mail \u2014 unknown. Drive Hugo if school is in session before the bus starts Tue Sep 8."
         },
         {
           "title": "Bus on delays and closures",
-          "body": "2-hour delay → 9:20am pickup. If SOMSD or Morris SD is closed, the Maplewood bus does not run even if Red Oaks is open."
+          "body": "2-hour delay \u2192 9:20am pickup. If SOMSD or Morris SD is closed, the Maplewood bus does not run even if Red Oaks is open."
         }
       ]
     },
@@ -94,7 +94,7 @@
       "id": "theo",
       "name": "Theodore Stahl",
       "shortName": "Theo",
-      "gradeLabel": "3rd grade · 2026–27",
+      "gradeLabel": "3rd grade \u00b7 2026\u201327",
       "school": {
         "name": "Delia Bolden Elementary",
         "level": "SOMSD",
@@ -118,12 +118,13 @@
       "transport": null,
       "needsResponse": [
         {
-          "id": "theo-teacher",
-          "title": "Get teacher assignment in PowerSchool",
-          "body": "Posted Friday Aug 28. The school will not give teacher names by phone or email — check PowerSchool.",
-          "posted": "2026-08-28",
-          "href": "https://www.somsdk12.org/powerschool",
-          "hrefLabel": "Open PowerSchool"
+          "id": "theo-pta-captain",
+          "title": "Bolden PTA class captain form",
+          "body": "Optional. Sign up if you want to be a class captain.",
+          "due": "2026-08-31T18:00:00-04:00",
+          "optional": true,
+          "href": "https://forms.gle/Fm9V2CB3DiYsGWRP6",
+          "hrefLabel": "Open PTA form"
         },
         {
           "id": "theo-welcome-letter",
@@ -134,18 +135,24 @@
           "location": "File box outside the front door, Virginia Road"
         },
         {
-          "id": "theo-pta-captain",
-          "title": "Bolden PTA class captain form",
-          "body": "Optional. Sign up if you want to be a class captain.",
-          "due": "2026-08-31T18:00:00-04:00",
-          "optional": true,
-          "href": "https://forms.gle/Fm9V2CB3DiYsGWRP6",
-          "hrefLabel": "Open PTA form"
+          "id": "theo-meal-balance",
+          "title": "Add PaySchools meal funds",
+          "body": "Theo meal balance is \u2212$6.70 (below the $5 alert). Latest alert Sun Aug 30 ~9:30pm ET. Add funds in PaySchools Central.",
+          "href": "https://www.payschoolscentral.com/",
+          "hrefLabel": "Open PaySchools"
+        },
+        {
+          "id": "theo-teacher",
+          "title": "Get teacher assignment in PowerSchool",
+          "body": "Posted Friday Aug 28. The school will not give teacher names by phone or email \u2014 check PowerSchool.",
+          "posted": "2026-08-28",
+          "href": "https://www.somsdk12.org/powerschool",
+          "hrefLabel": "Open PowerSchool"
         },
         {
           "id": "theo-principal-email",
           "title": "Watch for first-day email from the principal",
-          "body": "Principal said a Monday Aug 31 email is coming with first-day arrival, dismissal, and breakfast. Not in the inbox as of Saturday Aug 29. District mail comes from somsd.k12.nj.us.",
+          "body": "Principal said a Monday Aug 31 email is coming with first-day arrival, dismissal, and breakfast. Still not in the inbox as of ~7:40am ET Mon Aug 31. District mail comes from somsd.k12.nj.us.",
           "expected": "2026-08-31"
         }
       ],
@@ -160,7 +167,7 @@
       ],
       "scheduleNotes": [
         {
-          "title": "First day · Tue Sep 1",
+          "title": "First day \u00b7 Tue Sep 1",
           "body": "Universal breakfast starts this day. Bell-to-bell ban on smartphones, smartwatches, and earbuds. Elementary Chromebooks stay at school."
         },
         {
@@ -176,14 +183,14 @@
       "title": "Labor Day",
       "date": "2026-09-07",
       "confirmed": false,
-      "note": "Public holiday — unconfirmed school closure"
+      "note": "Public holiday \u2014 unconfirmed school closure"
     },
     {
       "id": "columbus-day",
       "title": "Columbus Day",
       "date": "2026-10-12",
       "confirmed": false,
-      "note": "Public holiday — unconfirmed school closure"
+      "note": "Public holiday \u2014 unconfirmed school closure"
     }
   ]
 }
