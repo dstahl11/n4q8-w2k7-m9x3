@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-31T07:40:00-04:00",
+  "lastUpdated": "2026-09-01T07:42:00-04:00",
   "timezone": "America/New_York",
   "familyName": "Hugo and Theo School Stuff",
   "kids": [
@@ -7,7 +7,7 @@
       "id": "hugo",
       "name": "Hugo Stahl",
       "shortName": "Hugo",
-      "gradeLabel": "rising 7th grade",
+      "gradeLabel": "7th grade · 2026–27",
       "school": {
         "name": "The Red Oaks School",
         "level": "Middle School",
@@ -23,7 +23,7 @@
             "email": "nurse@redoaksschool.org"
           },
           {
-            "role": "Advisor 2025\u201326",
+            "role": "Advisor 2025–26",
             "name": "Claudia Perez Lopez",
             "email": "cperez@redoaksschool.org"
           },
@@ -39,9 +39,9 @@
         "status": "committed",
         "pickup": "Pierson Road between Burnet and Valley",
         "starts": "2026-09-08T07:20:00-04:00",
-        "startsNote": "Bus does not run the first week. Drive if Red Oaks is in session before Tue Sep 8.",
+        "startsNote": "First instructional day is also Tue Sep 8, so the bus should cover opening day.",
         "delayPickup": "9:20am ET",
-        "delayRule": "2-hour delay \u2192 9:20am pickup",
+        "delayRule": "2-hour delay → 9:20am pickup",
         "cost": "$2500/student",
         "closedIf": "If SOMSD or Morris SD is closed, no Maplewood bus even if Red Oaks is open."
       },
@@ -51,7 +51,7 @@
           "title": "Back-to-school checklist + medical forms",
           "body": "Complete the Back-to-School Checklist and medical forms in Blackbaud. Medical forms were originally due Aug 15; the deadline was extended to Friday Sep 4.",
           "due": "2026-09-04",
-          "path": "Blackbaud \u2192 Resources \u2192 Back-to-School Checklist",
+          "path": "Blackbaud → Resources → Back-to-School Checklist",
           "href": "https://redoaksschool.myschoolapp.com/app",
           "hrefLabel": "Open Blackbaud",
           "contact": {
@@ -63,30 +63,42 @@
       ],
       "upcoming": [
         {
+          "id": "hugo-first-day",
+          "title": "First day of school",
+          "body": "Confirmed on the Red Oaks calendar (all school). Maplewood bus starts the same morning.",
+          "start": "2026-09-08",
+          "location": "Middle School, 238 Speedwell Ave"
+        },
+        {
           "id": "hugo-bus-start",
           "title": "Maplewood bus starts",
-          "body": "Pickup on Pierson Road between Burnet and Valley. Not the first week of school \u2014 drive until then if Red Oaks is in session.",
+          "body": "Pickup on Pierson Road between Burnet and Valley. Same day as first instructional day.",
           "start": "2026-09-08T07:20:00-04:00",
           "location": "Pierson Road between Burnet and Valley"
         },
         {
           "id": "hugo-welcome-breakfast",
           "title": "Parent Welcome Back Breakfast",
-          "body": "Middle School dining hall.",
+          "body": "Confirmed on the school calendar. 8:30–9:30am ET.",
           "start": "2026-09-10T08:30:00-04:00",
-          "location": "Middle School dining hall",
-          "uncertain": true,
-          "uncertainNote": "Treating Thu Sep 10 as canonical (email subject said 9/10). An image alt text incorrectly said Fri Sep 5."
+          "location": "Middle School dining hall"
+        },
+        {
+          "id": "hugo-athletics-info",
+          "title": "Athletics information session",
+          "body": "Grades 3–8. On the Red Oaks calendar.",
+          "start": "2026-09-10T19:00:00-04:00",
+          "location": "The Red Oaks School"
         }
       ],
       "scheduleNotes": [
         {
-          "title": "First instructional day",
-          "body": "Not listed in the mail \u2014 unknown. Drive Hugo if school is in session before the bus starts Tue Sep 8."
+          "title": "First instructional day · Tue Sep 8",
+          "body": "School calendar lists first day Tue Sep 8 (new PreK/K start Wed Sep 9). Thu Sep 3 orientation is Grade 5 and new students only."
         },
         {
           "title": "Bus on delays and closures",
-          "body": "2-hour delay \u2192 9:20am pickup. If SOMSD or Morris SD is closed, the Maplewood bus does not run even if Red Oaks is open."
+          "body": "2-hour delay → 9:20am pickup. If SOMSD or Morris SD is closed, the Maplewood bus does not run even if Red Oaks is open."
         }
       ]
     },
@@ -94,7 +106,7 @@
       "id": "theo",
       "name": "Theodore Stahl",
       "shortName": "Theo",
-      "gradeLabel": "3rd grade \u00b7 2026\u201327",
+      "gradeLabel": "3rd grade · 2026–27",
       "school": {
         "name": "Delia Bolden Elementary",
         "level": "SOMSD",
@@ -118,61 +130,64 @@
       "transport": null,
       "needsResponse": [
         {
-          "id": "theo-pta-captain",
-          "title": "Bolden PTA class captain form",
-          "body": "Optional. Sign up if you want to be a class captain.",
-          "due": "2026-08-31T18:00:00-04:00",
-          "optional": true,
-          "href": "https://forms.gle/Fm9V2CB3DiYsGWRP6",
-          "hrefLabel": "Open PTA form"
-        },
-        {
           "id": "theo-welcome-letter",
           "title": "Pick up one teacher welcome letter",
-          "body": "File box outside the front door on Virginia Road. One letter per family.",
+          "body": "Last day. File box near the main entrance on Virginia Road. One letter per Bolden student.",
           "windowStart": "2026-08-31T10:00:00-04:00",
           "windowEnd": "2026-09-01",
-          "location": "File box outside the front door, Virginia Road"
+          "location": "File box near the main entrance, Virginia Road"
         },
         {
           "id": "theo-meal-balance",
           "title": "Add PaySchools meal funds",
-          "body": "Theo meal balance is \u2212$6.70 (below the $5 alert). Latest alert Sun Aug 30 ~9:30pm ET. Add funds in PaySchools Central.",
+          "body": "Theo meal balance is still −$6.70 (below the $5 alert). Breakfast starts today at 7:15am and costs $2.15. Add funds in PaySchools Central.",
           "href": "https://www.payschoolscentral.com/",
           "hrefLabel": "Open PaySchools"
         },
         {
           "id": "theo-teacher",
           "title": "Get teacher assignment in PowerSchool",
-          "body": "Posted Friday Aug 28. The school will not give teacher names by phone or email \u2014 check PowerSchool.",
+          "body": "Posted Friday Aug 28. School is at capacity and will not honor class-change requests. Portal help: ParentPortalHelp@somsd.k12.nj.us.",
           "posted": "2026-08-28",
           "href": "https://www.somsdk12.org/powerschool",
           "hrefLabel": "Open PowerSchool"
-        },
-        {
-          "id": "theo-principal-email",
-          "title": "Watch for first-day email from the principal",
-          "body": "Principal said a Monday Aug 31 email is coming with first-day arrival, dismissal, and breakfast. Still not in the inbox as of ~7:40am ET Mon Aug 31. District mail comes from somsd.k12.nj.us.",
-          "expected": "2026-08-31"
         }
       ],
       "upcoming": [
         {
           "id": "theo-first-day",
-          "title": "SOMSD first day of school",
-          "body": "Universal breakfast starts. Bell-to-bell smartphone, smartwatch, and earbud ban. Elementary Chromebooks stay at school.",
+          "title": "First day of school",
+          "body": "7:50am–2:20pm. Arrive no earlier than 7:40am. 3rd grade lines up in the gym. Car drop-off is Maryland Road (Virginia Road is buses/staff only 7:30–8:00am). Dismissal 2:20pm on the front lawn facing Ridgewood Road. Universal breakfast 7:15am via the rear door off the parking lot; escort kids on Maryland Road. Phones, smartwatches, and earbuds banned bell-to-bell. Chromebooks stay at school.",
           "start": "2026-09-01",
+          "location": "Delia Bolden Elementary"
+        },
+        {
+          "id": "theo-coffee-calissi",
+          "title": "Coffee with Calissi",
+          "body": "Listed on the Bolden PTA calendar at 7:50am. No extra details in district mail.",
+          "start": "2026-09-08T07:50:00-04:00",
+          "location": "Delia Bolden Elementary"
+        },
+        {
+          "id": "theo-bts-night",
+          "title": "Back-to-School Night",
+          "body": "6:30pm. That day is a 4-hour day for students; dismissal 11:50am.",
+          "start": "2026-09-23T18:30:00-04:00",
           "location": "Delia Bolden Elementary"
         }
       ],
       "scheduleNotes": [
         {
-          "title": "First day \u00b7 Tue Sep 1",
-          "body": "Universal breakfast starts this day. Bell-to-bell ban on smartphones, smartwatches, and earbuds. Elementary Chromebooks stay at school."
+          "title": "First day · Tue Sep 1",
+          "body": "Hours 7:50am–2:20pm; do not arrive before 7:40am. 3rd grade lines up in the gym after drop-off on Virginia or Maryland. Car families: Maryland Road only 7:30–8:00am. Breakfast 7:15am, $2.15, rear door off the parking lot. Dismissal 2:20pm, front lawn facing Ridgewood Road. Virginia Road closed to through traffic 2:00–2:30pm."
+        },
+        {
+          "title": "Wed Sep 23 early dismissal",
+          "body": "Back-to-School Night evening. Students dismiss at 11:50am (4-hour day)."
         },
         {
           "title": "District mail",
-          "body": "Expect school mail from somsd.k12.nj.us."
+          "body": "Expect school mail from somsd.k12.nj.us. First-day letter: https://drive.google.com/file/d/14GCg2DbFAaWJXe2bQvNlmD6cbjjQnAi5/view"
         }
       ]
     }
@@ -182,15 +197,22 @@
       "id": "labor-day",
       "title": "Labor Day",
       "date": "2026-09-07",
-      "confirmed": false,
-      "note": "Public holiday \u2014 unconfirmed school closure"
+      "confirmed": true,
+      "note": "SOMSD district closed. Red Oaks first day is the next morning, Tue Sep 8."
     },
     {
-      "id": "columbus-day",
-      "title": "Columbus Day",
+      "id": "yom-kippur",
+      "title": "Yom Kippur",
+      "date": "2026-09-21",
+      "confirmed": true,
+      "note": "SOMSD district closed"
+    },
+    {
+      "id": "oct-12-pd",
+      "title": "Staff PD — no school for students",
       "date": "2026-10-12",
-      "confirmed": false,
-      "note": "Public holiday \u2014 unconfirmed school closure"
+      "confirmed": true,
+      "note": "SOMSD academic calendar: school closed for students K–12 (staff PD), not a Columbus Day holiday listing"
     }
   ]
 }
