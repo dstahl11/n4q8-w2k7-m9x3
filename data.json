@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-02T07:45:00-04:00",
+  "lastUpdated": "2026-09-03T07:40:00-04:00",
   "timezone": "America/New_York",
   "familyName": "Hugo and Theo School Stuff",
   "kids": [
@@ -7,7 +7,7 @@
       "id": "hugo",
       "name": "Hugo Stahl",
       "shortName": "Hugo",
-      "gradeLabel": "7th grade \u00b7 2026\u201327",
+      "gradeLabel": "7th grade · 2026–27",
       "school": {
         "name": "The Red Oaks School",
         "level": "Middle School",
@@ -23,7 +23,7 @@
             "email": "nurse@redoaksschool.org"
           },
           {
-            "role": "Advisor 2025\u201326",
+            "role": "Advisor 2025–26",
             "name": "Claudia Perez Lopez",
             "email": "cperez@redoaksschool.org"
           },
@@ -41,14 +41,14 @@
         "starts": "2026-09-08T07:20:00-04:00",
         "startsNote": "First instructional day is also Tue Sep 8, so the bus should cover opening day.",
         "delayPickup": "9:20am ET",
-        "delayRule": "2-hour delay \u2192 9:20am pickup",
+        "delayRule": "2-hour delay → 9:20am pickup",
         "cost": "$2500/student",
         "closedIf": "If SOMSD or Morris SD is closed, no Maplewood bus even if Red Oaks is open."
       },
       "needsResponse": [
         {
           "id": "hugo-summer-photo",
-          "title": "Send summer photo for MS board",
+          "title": "Send summer photo for MS board (due today)",
           "body": "Noga Beer asked Middle School families to email Hugo's favorite summer/vacation photo to Lauren Miller (lmiller@redoaksschool.org) for the Summer Memories board. Due Thursday Sep 3.",
           "due": "2026-09-03",
           "href": "mailto:lmiller@redoaksschool.org?subject=Summer%20Photos",
@@ -59,7 +59,7 @@
           "title": "Finish Blackbaud back-to-school checklist",
           "body": "Medical form PDF was emailed to nurse@redoaksschool.org on Sep 1. Still finish any remaining Back-to-School Checklist items in Blackbaud. Extended deadline is Friday Sep 4.",
           "due": "2026-09-04",
-          "path": "Blackbaud \u2192 Resources \u2192 Back-to-School Checklist",
+          "path": "Blackbaud → Resources → Back-to-School Checklist",
           "href": "https://redoaksschool.myschoolapp.com/app",
           "hrefLabel": "Open Blackbaud",
           "contact": {
@@ -67,6 +67,14 @@
             "name": "Jenna Buesser",
             "email": "jbuesser@redoaksschool.org"
           }
+        },
+        {
+          "id": "hugo-fall-extracurriculars",
+          "title": "Register for fall after-school extracurriculars",
+          "body": "Red Oaks: many fall programs begin the week of Sep 14. Registration closes Friday Sep 11 (some may fill earlier). Theatre, STEM, martial arts, athletics, band, and more. Middle School Basketball Team registration stays open through Oct 26.",
+          "due": "2026-09-11",
+          "href": "https://www.redoaksschool.org/after-school/extracurriculars",
+          "hrefLabel": "Open extracurriculars"
         }
       ],
       "upcoming": [
@@ -87,26 +95,26 @@
         {
           "id": "hugo-welcome-breakfast",
           "title": "Parent Welcome Back Breakfast",
-          "body": "Confirmed on the school calendar. 8:30\u20139:30am ET.",
+          "body": "Confirmed on the school calendar. 8:30–9:30am ET.",
           "start": "2026-09-10T08:30:00-04:00",
           "location": "Middle School dining hall"
         },
         {
           "id": "hugo-athletics-info",
           "title": "Athletics information session",
-          "body": "Grades 3\u20138. On the Red Oaks calendar.",
+          "body": "Grades 3–8. On the Red Oaks calendar.",
           "start": "2026-09-10T19:00:00-04:00",
           "location": "The Red Oaks School"
         }
       ],
       "scheduleNotes": [
         {
-          "title": "First instructional day \u00b7 Tue Sep 8",
+          "title": "First instructional day · Tue Sep 8",
           "body": "School calendar lists first day Tue Sep 8 (new PreK/K start Wed Sep 9). Thu Sep 3 orientation is Grade 5 and new students only."
         },
         {
           "title": "Bus on delays and closures",
-          "body": "2-hour delay \u2192 9:20am pickup. If SOMSD or Morris SD is closed, the Maplewood bus does not run even if Red Oaks is open."
+          "body": "2-hour delay → 9:20am pickup. If SOMSD or Morris SD is closed, the Maplewood bus does not run even if Red Oaks is open."
         }
       ]
     },
@@ -114,7 +122,7 @@
       "id": "theo",
       "name": "Theodore Stahl",
       "shortName": "Theo",
-      "gradeLabel": "3rd grade \u00b7 2026\u201327",
+      "gradeLabel": "3rd grade · 2026–27",
       "school": {
         "name": "Delia Bolden Elementary",
         "level": "SOMSD",
@@ -140,14 +148,14 @@
         {
           "id": "theo-meal-balance",
           "title": "Add PaySchools meal funds",
-          "body": "Theo meal balance is still \u2212$6.70 (below the $5 alert; new alert overnight). Breakfast is 7:15am and costs $2.15. Add funds in PaySchools Central.",
+          "body": "Theo meal balance is still −$6.70 (below the $5 alert; another overnight alert Sep 3). Breakfast is 7:15am and costs $2.15. Add funds in PaySchools Central.",
           "href": "https://www.payschoolscentral.com/",
           "hrefLabel": "Open PaySchools"
         },
         {
           "id": "theo-4sb-check",
           "title": "Check if 4SB welcome is Theo's class",
-          "body": "BCC'd into a Bolden 4SB (4th grade) welcome from Sarah Benenati & Marisa Stoessel. Theo is listed as 3rd grade \u2014 confirm in PowerSchool. If he is in 4SB: join Remind (PDF in that email), introduce yourself with his name, PE Mon/Wed with sneakers, daily water bottle/snack/layers.",
+          "body": "BCC'd into a Bolden 4SB (4th grade) welcome from Sarah Benenati & Marisa Stoessel. Theo is listed as 3rd grade — confirm in PowerSchool. If he is in 4SB: join Remind (PDF in that email), introduce yourself with his name, PE Mon/Wed with sneakers, daily water bottle/snack/layers.",
           "href": "https://www.somsdk12.org/powerschool",
           "hrefLabel": "Open PowerSchool"
         },
@@ -178,8 +186,12 @@
       ],
       "scheduleNotes": [
         {
+          "title": "South Orange roadwork near Bolden",
+          "body": "Sep 2 Bolden mail from Mr. Calissi: village roadwork may affect transportation routes and cause delays. NJ American Water is not planning lead-line replacement this week or next. Details: https://www.southorange.org/m/newsflash/home/detail/2587"
+        },
+        {
           "title": "Daily hours",
-          "body": "7:50am\u20132:20pm; do not arrive before 7:40am. 3rd grade lines up in the gym. Car drop-off: Maryland Road only 7:30\u20138:00am. Breakfast 7:15am, $2.15, rear door off the parking lot. Dismissal 2:20pm, front lawn facing Ridgewood Road. Virginia Road closed to through traffic 2:00\u20132:30pm."
+          "body": "7:50am–2:20pm; do not arrive before 7:40am. 3rd grade lines up in the gym. Car drop-off: Maryland Road only 7:30–8:00am. Breakfast 7:15am, $2.15, rear door off the parking lot. Dismissal 2:20pm, front lawn facing Ridgewood Road. Virginia Road closed to through traffic 2:00–2:30pm."
         },
         {
           "title": "Wed Sep 23 early dismissal",
@@ -209,10 +221,10 @@
     },
     {
       "id": "oct-12-pd",
-      "title": "Staff PD \u2014 no school for students",
+      "title": "Staff PD — no school for students",
       "date": "2026-10-12",
       "confirmed": true,
-      "note": "SOMSD academic calendar: school closed for students K\u201312 (staff PD), not a Columbus Day holiday listing"
+      "note": "SOMSD academic calendar: school closed for students K–12 (staff PD), not a Columbus Day holiday listing"
     }
   ]
 }
