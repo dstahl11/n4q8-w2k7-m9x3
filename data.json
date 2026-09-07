@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-04T07:40:00-04:00",
+  "lastUpdated": "2026-09-07T07:42:00-04:00",
   "timezone": "America/New_York",
   "familyName": "Hugo and Theo School Stuff",
   "kids": [
@@ -55,8 +55,8 @@
       "needsResponse": [
         {
           "id": "hugo-bts-medical",
-          "title": "Finish Blackbaud back-to-school checklist (due today)",
-          "body": "Medical form PDF was emailed to nurse@redoaksschool.org on Sep 1. Still finish any remaining Back-to-School Checklist items in Blackbaud. Extended deadline is Friday Sep 4.",
+          "title": "Finish Blackbaud back-to-school checklist (overdue)",
+          "body": "Extended deadline was Fri Sep 4. Medical form PDF was emailed to nurse@redoaksschool.org on Sep 1. Confirm remaining Back-to-School Checklist items are done in Blackbaud before Tue Sep 8 first day, including Emergency Contacts used for dismissal release.",
           "due": "2026-09-04",
           "path": "Blackbaud → Resources → Back-to-School Checklist",
           "href": "https://redoaksschool.myschoolapp.com/app",
@@ -69,8 +69,8 @@
         },
         {
           "id": "hugo-bus-whatsapp",
-          "title": "Join Maplewood bus WhatsApp",
-          "body": "Patty Giordano (Sep 3): first bus day is Tue Sep 8. Sign into the WhatsApp group so liaisons can reach you. Liaisons are filled (Zeynep Saka/Marco Fabbrizio, Emily Fromm, Danielle Raulli) — no need to volunteer.",
+          "title": "Join Maplewood bus WhatsApp (needed before tomorrow)",
+          "body": "First bus day is tomorrow Tue Sep 8 (~7:20am ET pickup on Pierson Road between Burnet and Valley). Join WhatsApp so liaisons can reach you. Liaisons: Zeynep Saka/Marco Fabbrizio, Emily Fromm, Danielle Raulli.",
           "due": "2026-09-08",
           "href": "https://chat.whatsapp.com/Ctu4xMCNTqE9P4y9m8P2Q2",
           "hrefLabel": "Open WhatsApp invite"
@@ -85,8 +85,8 @@
         },
         {
           "id": "hugo-fall-extracurriculars",
-          "title": "Register for fall after-school extracurriculars",
-          "body": "Red Oaks: many fall programs begin the week of Sep 14. Registration closes Friday Sep 11 (some may fill earlier). Theatre, STEM, martial arts, athletics, band, and more. Middle School Basketball Team registration stays open through Oct 26.",
+          "title": "Register for fall after-school extracurriculars (due Fri)",
+          "body": "Sep 5 reminder: many fall programs begin the week of Sep 14. Registration closes Friday Sep 11 (some may fill earlier). Theatre, STEM, martial arts, athletics, band, and more. Middle School Basketball Team registration stays open through Oct 26.",
           "due": "2026-09-11",
           "href": "https://www.redoaksschool.org/after-school/extracurriculars",
           "hrefLabel": "Open extracurriculars"
@@ -96,7 +96,7 @@
         {
           "id": "hugo-first-day",
           "title": "First day of school",
-          "body": "Confirmed on the Red Oaks calendar (all school). Maplewood bus starts the same morning.",
+          "body": "Week Ahead (Sep 6): first day for grades 1–8. Maplewood bus starts the same morning.",
           "start": "2026-09-08",
           "location": "Middle School, 238 Speedwell Ave"
         },
@@ -110,7 +110,7 @@
         {
           "id": "hugo-welcome-breakfast",
           "title": "Parent Welcome Back Breakfast",
-          "body": "School reminder emailed Sep 3. 8:30–9:30am ET (Thu Sep 10).",
+          "body": "Week Ahead (Sep 6): 8:30am ET, Middle School dining hall (Thu Sep 10).",
           "start": "2026-09-10T08:30:00-04:00",
           "location": "Middle School dining hall"
         },
@@ -120,16 +120,31 @@
           "body": "Grades 3–8. On the Red Oaks calendar.",
           "start": "2026-09-10T19:00:00-04:00",
           "location": "The Red Oaks School"
+        },
+        {
+          "id": "hugo-ms-bts-night",
+          "title": "Middle School Back-to-School Night",
+          "body": "On the Red Oaks Week Ahead (Sep 6). Separate from Elementary BTS Night on Wed Sep 23.",
+          "start": "2026-09-24",
+          "location": "Middle School campus"
         }
       ],
       "scheduleNotes": [
         {
-          "title": "First instructional day · Tue Sep 8",
-          "body": "School calendar lists first day Tue Sep 8 (new PreK/K start Wed Sep 9). Mon Sep 7 is Labor Day — no school."
+          "title": "Labor Day · Mon Sep 7 — no school",
+          "body": "Today is Labor Day. First instructional day is tomorrow, Tue Sep 8."
+        },
+        {
+          "title": "Middle School hours (Sep 4 reminder)",
+          "body": "Arrival 7:45–7:57am ET; dismissal 3:30pm. No supervision before 7:45. Late arrivals must be walked into the main office and signed in (no curb drop-off). Dismissal cars should not arrive before 3:15pm. All parking-lot exits are right turn only. Child released only to Blackbaud Emergency Contacts."
         },
         {
           "title": "Bus on delays and closures",
           "body": "2-hour delay → 9:20am pickup. If SOMSD or Morris SD is closed, the Maplewood bus does not run even if Red Oaks is open."
+        },
+        {
+          "title": "Yom Kippur · Mon Sep 21 — school closed",
+          "body": "Confirmed on Red Oaks Week Ahead."
         }
       ]
     },
@@ -165,6 +180,12 @@
             "role": "4SB co-teacher",
             "name": "Marisa Stoessel",
             "email": "mstoesse@somsd.k12.nj.us"
+          },
+          {
+            "role": "CST case manager 2026–27",
+            "name": "Dr. Lamont Harris",
+            "email": "lharris@somsd.k12.nj.us",
+            "note": "Letter dated Sep 4 says Tuscan Elementary — Theo is at Delia Bolden; confirm with Dr. Harris or Christina Punturieri (cpunturi@somsd.k12.nj.us) if that school line looks wrong. Phone (973) 762-5600 ext. 7317 / 7313."
           }
         ]
       },
@@ -172,8 +193,8 @@
       "needsResponse": [
         {
           "id": "theo-meal-balance",
-          "title": "Add PaySchools meal funds",
-          "body": "Theo meal balance is still −$6.70 (below the $5 alert; another overnight alert Sep 4). Breakfast is 7:15am and costs $2.15. Add funds in PaySchools Central.",
+          "title": "Add PaySchools meal funds (still −$6.70)",
+          "body": "Overnight low-balance alerts again Sep 5–7; Theodore Stahl still −$6.70 (below the $5 alert). SOMSD also emailed Sep 4 about Universal Breakfast in all schools this year — review that letter for breakfast schedule/cost, then add funds in PaySchools Central for meals.",
           "href": "https://www.payschoolscentral.com/",
           "hrefLabel": "Open PaySchools"
         },
@@ -183,6 +204,13 @@
           "body": "David told Jeannie Sep 3 he is signed up for the Remind app. Teachers still ask: once in, send a message introducing yourself with Theo's name. Co-taught by Sarah Benenati & Marisa Stoessel — include both.",
           "href": "https://www.remind.com/",
           "hrefLabel": "Open Remind"
+        },
+        {
+          "id": "theo-case-manager",
+          "title": "Note / confirm CST case manager (Dr. Harris)",
+          "body": "Sep 4: Dr. Lamont Harris emailed as Theo’s case manager (lharris@somsd.k12.nj.us). Letter header says Tuscan Elementary while Theo is at Delia Bolden — worth a quick confirm. District also said para-support details (if any) would follow around Sep 4–7; no separate para assignment email found yet. Bus Information Card only if Theo has IEP transportation.",
+          "href": "mailto:lharris@somsd.k12.nj.us",
+          "hrefLabel": "Email Dr. Harris"
         }
       ],
       "upcoming": [
@@ -203,6 +231,14 @@
       ],
       "scheduleNotes": [
         {
+          "title": "Labor Day · Mon Sep 7 — district closed",
+          "body": "Today. Regular Bolden hours resume Tue Sep 8 (7:50am–2:20pm)."
+        },
+        {
+          "title": "Universal Breakfast 2026–27",
+          "body": "SOMSD Sep 4: Universal Breakfast available in all district schools this year. Letter attached in mail covers schedules, eligibility, and costs. Bolden breakfast still listed around 7:15am via rear door off the parking lot."
+        },
+        {
           "title": "4SB class routines",
           "body": "PE Mon/Wed — sneakers. Daily water bottle, snack, and layers. Early lunch/recess 10:40–11:30am. Smart watches/devices off during the day."
         },
@@ -212,15 +248,11 @@
         },
         {
           "title": "Daily hours",
-          "body": "7:50am–2:20pm; do not arrive before 7:40am. Car drop-off: Maryland Road only 7:30–8:00am. Breakfast 7:15am, $2.15, rear door off the parking lot. Dismissal 2:20pm, front lawn facing Ridgewood Road."
+          "body": "7:50am–2:20pm; do not arrive before 7:40am. Car drop-off: Maryland Road only 7:30–8:00am. Breakfast 7:15am, rear door off the parking lot. Dismissal 2:20pm, front lawn facing Ridgewood Road."
         },
         {
           "title": "Wed Sep 23 early dismissal",
           "body": "Back-to-School Night evening. Students dismiss at 11:50am (4-hour day)."
-        },
-        {
-          "title": "District mail",
-          "body": "Expect school mail from somsd.k12.nj.us. Sep 2 Delta-T/Precision para staffing update was FYI only (PDF attached); no parent action."
         }
       ]
     }
@@ -231,14 +263,14 @@
       "title": "Labor Day",
       "date": "2026-09-07",
       "confirmed": true,
-      "note": "SOMSD district closed. Red Oaks first day is the next morning, Tue Sep 8."
+      "note": "Today. SOMSD closed. Red Oaks first day is tomorrow, Tue Sep 8."
     },
     {
       "id": "yom-kippur",
       "title": "Yom Kippur",
       "date": "2026-09-21",
       "confirmed": true,
-      "note": "SOMSD district closed"
+      "note": "SOMSD district closed. Red Oaks Week Ahead also lists SCHOOL CLOSED."
     },
     {
       "id": "oct-12-pd",
