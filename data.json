@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-11T07:55:00-04:00",
+  "lastUpdated": "2026-09-14T07:48:00-04:00",
   "timezone": "America/New_York",
   "familyName": "Hugo and Theo School Stuff",
   "kids": [
@@ -54,12 +54,17 @@
       },
       "needsResponse": [
         {
-          "id": "hugo-fall-extracurriculars",
-          "title": "TODAY: Register for fall extracurriculars (closes Fri Sep 11)",
-          "body": "Registration closes today (Fri Sep 11); programs begin next week. Theatre, STEM, martial arts, athletics, band, and more. Middle School Basketball Team registration stays open through Oct 26.",
-          "due": "2026-09-11",
-          "href": "https://www.redoaksschool.org/after-school/extracurriculars",
-          "hrefLabel": "Open extracurriculars"
+          "id": "hugo-camp-mason-forms",
+          "title": "THIS WEEK: Sign Camp Mason forms (due Fri Sep 18)",
+          "body": "Noga Beer (Fri Sep 11): MS camping trip Wed Sep 30–Fri Oct 2. Sign all docs in the Camp Mason Packet digitally and email Ms. Debbie (or print/send with Hugo), and complete the Camp Mason waiver app linked in the packet. Buses leave 9:15am ET sharp Wed Sep 30; Maplewood bus OK that morning with luggage. Return Fri Oct 2 ~2:00pm ET; Maplewood afternoon bus runs; Homework Club until 6pm.",
+          "due": "2026-09-18",
+          "href": "https://docs.google.com/document/d/1nRUHnT5BWyY5d2RZvXFlLzU201Ct224WolP-lVgl8u0/edit?usp=sharing",
+          "hrefLabel": "Open Camp Mason Packet",
+          "contact": {
+            "role": "Middle School Director",
+            "name": "Noga Beer",
+            "email": "nbeer@redoaksschool.org"
+          }
         },
         {
           "id": "hugo-tuition-sep26",
@@ -90,36 +95,40 @@
           "due": "2026-09-08",
           "href": "https://chat.whatsapp.com/Ctu4xMCNTqE9P4y9m8P2Q2",
           "hrefLabel": "Open WhatsApp invite"
-        },
-        {
-          "id": "hugo-summer-photo",
-          "title": "Send summer photo for MS board (overdue)",
-          "body": "Noga Beer asked Middle School families to email Hugo's favorite summer/vacation photo to Lauren Miller (lmiller@redoaksschool.org) for the Summer Memories board. Due was Thu Sep 3; still worth sending if you have one.",
-          "due": "2026-09-03",
-          "href": "mailto:lmiller@redoaksschool.org?subject=Summer%20Photos",
-          "hrefLabel": "Email Lauren Miller"
         }
       ],
       "upcoming": [
         {
-          "id": "hugo-extracurriculars-start",
-          "title": "Fall after-school extracurriculars begin",
-          "body": "Many programs start the week of Sep 14. Register by end of day Fri Sep 11 if Hugo is joining.",
-          "start": "2026-09-14",
-          "location": "The Red Oaks School"
-        },
-        {
           "id": "hugo-ms-bts-night",
           "title": "Middle School Back-to-School Night",
-          "body": "On the Red Oaks Week Ahead (Sep 6). Separate from Elementary BTS Night on Wed Sep 23.",
+          "body": "Red Oaks Week Ahead (Sep 13). Separate from Elementary BTS Night Wed Sep 23.",
           "start": "2026-09-24",
           "location": "Middle School campus"
+        },
+        {
+          "id": "hugo-pizza-friday",
+          "title": "Middle School Pizza Friday",
+          "body": "Listed on Red Oaks Week Ahead (Sep 13).",
+          "start": "2026-09-25",
+          "location": "Middle School campus"
+        },
+        {
+          "id": "hugo-camp-mason",
+          "title": "Camp Mason trip (overnight)",
+          "body": "Wed Sep 30–Fri Oct 2. Depart 9:15am ET Wed; return ~2:00pm ET Fri. Forms/waiver due Fri Sep 18. No phones/tech/money; bring bedding + sleeping bag.",
+          "start": "2026-09-30",
+          "end": "2026-10-02",
+          "location": "Camp Mason"
         }
       ],
       "scheduleNotes": [
         {
+          "title": "Fall extracurriculars underway",
+          "body": "Registration closed Fri Sep 11. Programs began Mon Sep 14. MS Basketball Team registration stays open through Oct 26 if still interested."
+        },
+        {
           "title": "Family Handbook on Blackbaud",
-          "body": "Red Oaks weekly newsletter Sep 10: review the Family Handbook (policies/procedures). Blackbaud → Resources → Parent Resources."
+          "body": "Red Oaks weekly newsletter: review the Family Handbook (policies/procedures). Blackbaud → Resources → Parent Resources."
         },
         {
           "title": "Middle School hours",
@@ -131,7 +140,7 @@
         },
         {
           "title": "Yom Kippur · Mon Sep 21 — school closed",
-          "body": "Confirmed on Red Oaks Week Ahead."
+          "body": "Confirmed on Red Oaks Week Ahead (Sep 13)."
         }
       ]
     },
@@ -172,36 +181,42 @@
             "role": "CST case manager 2026–27",
             "name": "Dr. Lamont Harris",
             "email": "lharris@somsd.k12.nj.us",
-            "note": "Confirmed Sep 9 he is Theo’s case manager at Bolden. Sent Frontline Notice 06A + draft IEP to amend Math placement without a meeting."
+            "note": "Confirmed Sep 9 he is Theo’s case manager at Bolden. David signed Frontline IEP amendment Fri Sep 11 (POR ELA + ICS Math). Awaiting class placement change confirmation."
           },
           {
             "role": "Resource Room · POR ELA (prior year)",
             "name": "William D. Visotsky",
             "email": "bvisotsk@somsd.k12.nj.us",
-            "note": "Also Bus Coordinator. Emailed Sep 11 about IEP POR vs ICS Math placement."
+            "note": "Also Bus Coordinator. Sep 11: confirmed POR ELA with him + ICS Math with Stoessel/Benenati (4th grade). Family replied; Jeannie thanked him Sep 12."
           }
         ]
       },
       "transport": null,
       "needsResponse": [
         {
-          "id": "theo-visotsky-iep-reply",
-          "title": "Reply to Mr. Visotsky about Theo’s IEP Math/ELA placement",
-          "body": "This morning (Fri Sep 11 ~7:18am ET): William Visotsky (Bolden Resource Room / last year’s POR ELA teacher) asked whether Dr. Harris contacted you, and whether POR ELA + POR Math for 26/27 is correct. He says last year was POR ELA with him and ICS Math with Ms. Gray, and notes agreed to keep that. Dr. Harris already emailed Sep 9 with Frontline Notice 06A + draft IEP to fix Math. Reply to Visotsky (cc Jeannie) confirming Harris reached out and what placement you want; then finish Frontline signatures.",
-          "href": "mailto:bvisotsk@somsd.k12.nj.us?subject=Re%3A%20Theo%27s%20IEP%20Placement%20Question",
-          "hrefLabel": "Reply to Visotsky",
-          "contact": {
-            "role": "Resource Room Teacher",
-            "name": "William D. Visotsky",
-            "email": "bvisotsk@somsd.k12.nj.us"
-          }
+          "id": "theo-bts-childcare",
+          "title": "THIS WEEK: Sign up Theo for Bolden BTS Night childcare (due Fri Sep 18)",
+          "body": "Bolden PTA this morning (Mon Sep 14): Back-to-School Night Wed Sep 23, 6:30–8:00pm ET. Free childcare for current Bolden students via PTA + South Mountain YMCA; limited spots. Register each child by Fri Sep 18. Optional Perch meetup after (details in PTA email).",
+          "due": "2026-09-18",
+          "href": "https://docs.google.com/forms/d/e/1FAIpQLSe8tr-oXdj8kHI6FqdsxKMmrWO-dA1HrRW2BFGLIQmDVHyP8A/viewform?pli=1",
+          "hrefLabel": "Childcare sign-up form"
         },
         {
           "id": "theo-meal-balance",
-          "title": "Add PaySchools meal funds (still −$6.70)",
-          "body": "Another low-balance alert overnight Sep 10–11; Theodore Stahl still −$6.70 (below the $5 alert). Add funds in PaySchools Central.",
+          "title": "Add PaySchools meal funds (last alert −$6.70)",
+          "body": "Last low-balance alert was around Sep 8–11; Theodore Stahl was −$6.70 (below the $5 alert). No newer alert since, but top up in PaySchools Central if still negative.",
           "href": "https://www.payschoolscentral.com/",
           "hrefLabel": "Open PaySchools"
+        },
+        {
+          "id": "theo-iep-class-confirm",
+          "title": "Watch: confirm Theo’s Math/ELA placement after Frontline signature",
+          "body": "Fri Sep 11: David signed Frontline Notice 06A / draft IEP and confirmed with Dr. Harris + Visotsky: POR ELA (Visotsky) and ICS Math with Ms. Stoessel & Ms. Benenati (not Ms. Gray). No further Harris reply yet — confirm classes actually changed.",
+          "contact": {
+            "role": "CST case manager",
+            "name": "Dr. Lamont Harris",
+            "email": "lharris@somsd.k12.nj.us"
+          }
         },
         {
           "id": "theo-remind-intro",
@@ -209,18 +224,6 @@
           "body": "David told Jeannie Sep 3 he is signed up for the Remind app. Teachers still ask: once in, send a message introducing yourself with Theo's name. Co-taught by Sarah Benenati & Marisa Stoessel — include both.",
           "href": "https://www.remind.com/",
           "hrefLabel": "Open Remind"
-        },
-        {
-          "id": "theo-frontline-iep",
-          "title": "Review & sign Theo’s Frontline IEP amendment (Math placement)",
-          "body": "Sep 9: Dr. Lamont Harris (Bolden CST) found Math class placement in the current IEP does not match the last IEP meeting. He shared two Frontline docs for review/signature: Notice 06A (amend without meeting) and Draft IEP (9/9/2026). Access code is in the Frontline emails (not repeated here). Visotsky followed up Sep 11 asking the same Math/ELA question — signing Frontline + replying to Visotsky closes both loops.",
-          "href": "https://collaborate.frontlineeducation.com/",
-          "hrefLabel": "Open Frontline",
-          "contact": {
-            "role": "CST case manager",
-            "name": "Dr. Lamont Harris",
-            "email": "lharris@somsd.k12.nj.us"
-          }
         }
       ],
       "upcoming": [
@@ -240,24 +243,28 @@
         },
         {
           "id": "theo-bts-night",
-          "title": "Back-to-School Night",
-          "body": "6:30pm. That day is a 4-hour day for students; dismissal 11:50am.",
+          "title": "Back-to-School Night (with free childcare option)",
+          "body": "Wed Sep 23, 6:30–8:00pm ET. That day is a 4-hour day for students; dismissal 11:50am. Free childcare signup due Fri Sep 18.",
           "start": "2026-09-23T18:30:00-04:00",
           "location": "Delia Bolden Elementary"
         }
       ],
       "scheduleNotes": [
         {
-          "title": "PSE&G Maplewood construction (next ~2 weeks)",
-          "body": "SOMSD Transportation Sep 7: gas main work may cause lane closures, detours, and delays for buses and drop-off/pick-up. Allow extra travel time."
+          "title": "IEP Math/ELA (updated Sep 11)",
+          "body": "Agreed placement: POR ELA with Mr. Visotsky; ICS Math with Ms. Stoessel & Ms. Benenati. Frontline amendment signed Fri Sep 11; waiting on school to move classes."
         },
         {
-          "title": "District bus updates (Bolden not listed)",
-          "body": "SOMSD continues route fixes (Green/Silver adjustments Fri Sep 11; Stopfinder still rolling out). Messages say only listed routes/schools change — Delia Bolden was not listed. Theo has no regular-year bus on this dashboard unless IEP transportation applies."
+          "title": "SOMSD buses (district-wide)",
+          "body": "Transportation Sun Sep 13: two new buses starting Wed Sep 17; PowerSchool timing/route updates later this week. District-wide — Bolden not singled out; Theo has no regular-year bus on this dashboard unless IEP transportation applies."
+        },
+        {
+          "title": "PSE&G Maplewood construction",
+          "body": "Earlier SOMSD note: gas main work may cause lane closures, detours, and delays. Allow extra travel time if still active."
         },
         {
           "title": "Universal Breakfast 2026–27",
-          "body": "SOMSD Sep 4: Universal Breakfast available in all district schools this year. Bolden breakfast still listed around 7:15am via rear door off the parking lot."
+          "body": "SOMSD: Universal Breakfast available in all district schools this year. Bolden breakfast still listed around 7:15am via rear door off the parking lot."
         },
         {
           "title": "4SB class routines",
@@ -280,7 +287,7 @@
       "title": "Yom Kippur",
       "date": "2026-09-21",
       "confirmed": true,
-      "note": "SOMSD district closed. Red Oaks Week Ahead also lists SCHOOL CLOSED."
+      "note": "SOMSD district closed. Red Oaks Week Ahead (Sep 13) lists SCHOOL CLOSED."
     },
     {
       "id": "oct-12-pd",
